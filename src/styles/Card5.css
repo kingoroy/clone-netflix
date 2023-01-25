@@ -1,0 +1,59 @@
+.card5{
+    height:auto;
+    background-color:black;
+    border-bottom:10px solid grey; 
+}
+.text5{
+    margin-top:50px;
+}
+.button1{
+    width:600px;
+    height:50px;
+    background-color:rgb(56,56,56);
+    color:white;
+    font-size:20px;
+    padding-top:10px;
+
+    text-align:left;
+}
+.note1{
+    width:600px;
+    margin-left:195px;
+    padding:20px;
+    height:auto;
+    background-color:rgb(56,56,56);
+    color:white;
+    padding-top:10px;
+}
+.showHide{
+    float:right;
+    margin-right:20px;
+    font-size:30px;
+    padding-bottom:10px;
+}
+@media (max-width:425px){
+    .card5{
+        height:auto; 
+    }
+    .text5{
+        margin-top:30px;
+    }
+    .button1{
+        width:100vw;
+        height:50px;
+        font-size:20px;
+        padding-top:10px;
+    }
+    .note1{
+        width:100vw;
+        margin-left:0px;
+        padding:20px;
+        height:auto;
+        padding-top:10px;
+    }
+    .showHide{
+        margin-right:20px;
+        font-size:30px;
+        padding-bottom:10px;
+    }
+}

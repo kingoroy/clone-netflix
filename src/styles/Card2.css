@@ -1,0 +1,41 @@
+.card2{
+    height:500px;
+   background-color:black;
+   border-bottom:10px solid grey;
+
+}
+.img2{
+    margin-top: 20px;
+    scale:0.8;
+}
+
+.text-enjoy{
+    margin-top:200px;
+}
+@media (max-width:768px) {
+    .card2{
+        height:800px;
+      
+    }
+    .text-enjoy{
+        margin-top:100px;
+        text-align:center;
+    }
+    .img2{
+        scale:0.65;
+    }
+}
+@media (max-width:425px) {
+    .card2{
+        height:50vh;
+      
+    }
+    .text-enjoy{
+        margin-top:50px;
+        text-align:center;
+    }
+    .img2{
+       margin-top: 10px;
+        scale:0.6;
+    }
+}

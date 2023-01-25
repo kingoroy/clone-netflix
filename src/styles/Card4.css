@@ -1,0 +1,51 @@
+.card4{
+    height:500px;
+    background-color:black;
+    border-bottom:10px solid grey;
+
+}
+.img4{
+    margin-top:50px;
+    scale:1.2;
+
+}
+.text-everywhere{
+    margin-top:200px;
+}
+
+@media (max-width:768px){
+    .card4{
+        height:800px;
+    }
+    .img4{
+        margin-top:50px;
+        scale:0.8;
+    
+    }
+    .text-everywhere{
+        margin-top:50px;
+        text-align:center;
+    }
+    .textInP{
+    text-align:center;
+    }
+
+}
+@media (max-width:425px){
+    .card4{
+        height:50vh;
+    }
+    .img4{
+        margin-top:10px;
+        scale:0.6;
+    
+    }
+    .text-everywhere{
+        margin-top:40px;
+        text-align:center;
+    }
+    .textInP{
+    text-align:center;
+    }
+
+}

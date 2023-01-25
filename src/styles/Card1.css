@@ -1,0 +1,117 @@
+.Card1{
+    height:700px;
+    
+    background-blend-mode: darken;
+    background: rgba(0,0,0,0.7) URL("https://assets.nflxext.com/ffe/siteui/vlv3/1ecf18b2-adad-4684-bd9a-acab7f2a875f/6abbb576-106a-4175-a16e-af91cf881736/IN-en-20230116-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size:cover;
+    border-bottom:10px solid grey;
+}
+.logo{
+    height:50px;
+    width:150px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.flex{
+    display:flex;
+    float:right;
+    margin-top:10px;
+    margin-right:100px;
+}
+.signIn{
+    margin-left:20px;
+
+}
+.tv{
+    margin-top:150px;
+}
+.main-text{
+    font-size:60px;;
+}
+.input{
+    width:400px;
+    height:80px;
+}
+.buttonGet{
+    font-size:20px;
+    width:200px;
+    height:80px;
+}
+.watch-text{
+   font-size:40px;
+}
+.ready-text{
+    font-size:20px;
+}
+@media (max-width:768px) {
+    .Card1{
+        height:50vh;
+    }
+    .logo{
+        height:40px;
+    width:100px;
+    }
+    .flex{
+        margin-top:10px;
+        margin-right:50px;
+    }
+    .tv{
+        margin-top:50px;
+        
+    }
+    .main-text{
+        font-size:30px;
+    }
+    .input{
+        width:200px;
+        height:30px;
+    }
+    .watch-text{
+        font-size:30px;
+     }
+     .ready-text{
+        font-size:25px;
+    }
+    .buttonGet{
+  font-size:15px;
+    width:150px;
+    height:30px;
+    }
+}
+@media (max-width:425px) {
+    .Card1{
+        height:50vh;
+    }
+    .logo{
+        height:30px;
+    width:60px;
+    }
+    .flex{
+        margin-top:10px;
+        margin-right:10px;
+    }
+    .tv{
+        margin-top:50px;
+        
+    }
+    .main-text{
+        font-size:28px;
+    }
+    .input{
+        width:300px;
+        height:50px;
+    }
+    .watch-text{
+        font-size:20px;
+     }
+     .ready-text{
+        font-size:20px;
+    }
+    .buttonGet{
+        margin-top:20px;
+  font-size:15px;
+    width:150px;
+    height:30px;
+    border-radius:0px;
+    }
+}
